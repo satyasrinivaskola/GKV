@@ -16,7 +16,7 @@ function MyProfile() {
       return;
     }
 
-    fetch("http://localhost:4000/api/my-profile", {
+    fetch("https://gkv-1g1p.onrender.com/api/my-profile", {
       headers: {
         Authorization: `Bearer ${token}`,
       },

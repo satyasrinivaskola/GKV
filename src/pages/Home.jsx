@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ProfileCard from "../components/ProfileCard";
 import matchImage from "./images/img.png";
-const API_URL = "http://localhost:4000/api";
+const API_URL = "https://gkv-1g1p.onrender.com/api";
 
 function Home() {
   const [profiles, setProfiles] = useState([]);

@@ -13,7 +13,7 @@ function Login() {
 
     try {
       const response = await fetch(
-        "http://localhost:4000/api/login",
+        "https://gkv-1g1p.onrender.com/api/login",
         {
           method: "POST",
           headers: {
@@ -34,7 +34,7 @@ function Login() {
 
      try {
   const profileResponse = await fetch(
-    "http://localhost:4000/api/my-profile",
+    "https://gkv-1g1p.onrender.com/api/my-profile",
     {
       headers: {
         Authorization: `Bearer ${data.token}`

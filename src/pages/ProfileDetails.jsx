@@ -2,12 +2,12 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-const API = "http://localhost:4000";
+const API = "https://gkv-1g1p.onrender.com";
 
 function ProfileDetails() {
 const fetchContact = async (token) => {
   const response = await fetch(
-    `http://localhost:4000/api/profiles/${id}/contact`,
+    `https://gkv-1g1p.onrender.com/api/profiles/${id}/contact`,
     {
       headers: {
         Authorization: `Bearer ${token}`,
@@ -33,7 +33,7 @@ const handleCheckContact = async () => {
   try {
     // Create ₹500 payment order
     const orderResponse = await fetch(
-      "http://localhost:4000/api/payments/create-order",
+      "https://gkv-1g1p.onrender.com/api/payments/create-order",
       {
         method: "POST",
         headers: {
@@ -70,7 +70,7 @@ const handleCheckContact = async () => {
       handler: async function (paymentResponse) {
         try {
           const verifyResponse = await fetch(
-            "http://localhost:4000/api/payments/verify",
+            "https://gkv-1g1p.onrender.com/api/payments/verify",
             {
               method: "POST",
               headers: {

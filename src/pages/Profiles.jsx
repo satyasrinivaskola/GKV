@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const API = "http://localhost:4000";
+const API = "https://gkv-1g1p.onrender.com";
 
 function Profile() {
   const [profiles, setProfiles] = useState([]);

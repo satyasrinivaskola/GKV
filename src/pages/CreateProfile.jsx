@@ -159,7 +159,7 @@ photos.forEach((photo) => {
 
 if (photos.some((photo) => photo !== null)) {
   const photoResponse = await fetch(
-    "http://localhost:4000/api/my-profile/photos",
+    "https://gkv-1g1p.onrender.com/api/my-profile/photos",
     {
       method: "POST",
       headers: {

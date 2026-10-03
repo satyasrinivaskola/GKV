@@ -1,1 +1,26 @@
-{"name":"gowda-kalyan-vedika-demo","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},"dependencies":{"@vitejs/plugin-react":"latest","bcryptjs":"^3.0.3","dotenv":"^18.0.5","express":"^5.2.1","jsonwebtoken":"^9.0.3","lucide-react":"latest","multer":"^2.4.0","mysql2":"^3.24.5","razorpay":"^2.9.8","react":"latest","react-dom":"latest","react-router-dom":"^7.18.4","vite":"latest"}}
+{
+    "name": "gowda-kalyan-vedika-demo",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@vitejs/plugin-react": "latest",
+        "bcryptjs": "^3.0.3",
+        "dotenv": "^18.0.5",
+        "express": "^5.2.1",
+        "jsonwebtoken": "^9.0.3",
+        "lucide-react": "latest",
+        "multer": "^2.4.0",
+        "mysql2": "^3.24.5",
+        "razorpay": "^2.9.8",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-router-dom": "^7.18.4",
+        "vite": "latest"
+    }
+}

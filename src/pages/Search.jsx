@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import ProfileCard from "../components/ProfileCard";
 
-const API_URL = "http://localhost:4000/api";
+const API_URL = "https://gkv-1g1p.onrender.com/api";
 
 function Search() {
   const [profiles, setProfiles] = useState([]);

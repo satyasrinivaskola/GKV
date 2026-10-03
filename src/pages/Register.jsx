@@ -31,7 +31,7 @@ function Register() {
 
     try {
       const response = await fetch(
-        "http://localhost:4000/api/register",
+        "https://gkv-1g1p.onrender.com/api/register",
         {
           method: "POST",
           headers: {
